@@ -1,0 +1,43 @@
+.otpModal.sc-ion-modal-ios-h {
+  --background: transparent;
+  --max-height: 290px;
+  --max-width: 330px;
+  --border-radius: 8px;
+
+  .modal-wrapper {
+    margin: auto;
+  }
+
+  ion-content {
+    overflow: hidden;
+  }
+}
+
+.support-modal.sc-ion-modal-ios-h {
+  --background: transparent;
+  --max-height: 200px;
+  --border-radius: 8px;
+
+  .modal-wrapper {
+    margin: auto 20px 20px;
+  }
+
+  ion-content {
+    overflow: hidden;
+  }
+}
+
+ionic-selectable-modal {
+  ion-content {
+    top: 118px!important;
+    bottom: 0!important;
+  }
+}
+
+.modal-centered {
+  .modal-wrapper {
+    height: 350px;
+    width: 90%;
+    border-radius: 5px;
+  }
+}

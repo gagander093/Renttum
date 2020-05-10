@@ -1,0 +1,46 @@
+ion-item {
+  &.item-label-stacked {
+    .label-stacked {
+      display: inline-block;
+      margin: 0;
+      position: absolute;
+      left: 15px;
+      top: 1px;
+      background: #fff;
+      z-index: 9;
+      padding: 0 5px;
+      color: #1f234f;
+
+      sub {
+        bottom: 0;
+      }
+    }
+
+    ion-input {
+      input {
+        --padding-start: 16px;
+        --padding-top: 14px;
+        --padding-bottom: 14px;
+        border: 1px solid var(--border-color)!important;
+        transform: none!important;
+        scale: none!important;
+      }
+    }
+
+    ion-select {
+      margin-top: 9px;
+      --padding-start: 16px;
+      --padding-top: 14px;
+      --padding-bottom: 14px;
+      border: 1px solid var(--border-color)!important;
+    }
+
+    ionic-selectable {
+      margin-top: 9px;
+      padding-left: 16px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border: 1px solid var(--border-color)!important;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.swiper-container {
+  height: 100%;
+
+  ion-card {
+    margin: 10px 0 20px;
+    width: 94%;
+  }
+}
+
+.swiper-slide {
+  flex-direction: column;
+
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 0;
+}
+.swiper-pagination-bullet {
+  width: 11px;
+  opacity: 1;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+
+  &.swiper-pagination-bullet-active {
+    width: 47px;
+    --bullet-background-active: #ff8426;
+  }
+}

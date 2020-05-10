@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-toggle *ngIf="!showBack">
+        <img src="../../../assets/images/header and footer icons/menu icon.png" class="menu-icon" />
+      </ion-menu-toggle>
+      <ion-back-button defaultHref="home" *ngIf="showBack && !canClick" text="" icon="arrow-round-back" color="light"></ion-back-button>
+      <ion-button class="back-btn" fill="clear" *ngIf="showBack && canClick" (click)="onBackClick()">
+        <ion-icon name="arrow-round-back" color="light"></ion-icon>
+      </ion-button>
+      <img *ngIf="!title" class="logo" src="../../../assets/images/home/white-logo.png" />
+      <h3 *ngIf="!!title">
+        <ion-text color="light">{{ title }}</ion-text>
+      </h3>
+    </ion-buttons>
+    <ion-title>&nbsp;</ion-title>
+  </ion-toolbar>
+</ion-header>

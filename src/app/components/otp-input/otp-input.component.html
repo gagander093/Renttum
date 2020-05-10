@@ -1,0 +1,64 @@
+<ion-item lines="none">
+  <ion-grid>
+    <ion-row class="ion-align-items-center ion-justify-content-center">
+      <ion-col>
+        <ion-input
+          #otp1
+          type="tel"
+          class="otp"
+          pattern="[0-9]{6}"
+          maxlength="1"
+          size="1"
+          name="otp0"
+          [(ngModel)]="otp[0]"
+          (ngModelChange)="modelChange()"
+          (keyup)="focus($event, otp2)">
+        </ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-input
+          #otp2
+          type="tel"
+          class="otp"
+          pattern="[0-9]{6}"
+          maxlength="1"
+          size="1"
+          name="otp1"
+          [(ngModel)]="otp[1]"
+          (ngModelChange)="modelChange()"
+          (keyup)="focus($event, otp3)"
+          (keydown)="focusPrev($event, otp1)">
+        </ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-input
+          #otp3
+          type="tel"
+          class="otp"
+          pattern="[0-9]{6}"
+          maxlength="1"
+          size="1"
+          name="otp2"
+          [(ngModel)]="otp[2]"
+          (ngModelChange)="modelChange()"
+          (keyup)="focus($event, otp4)"
+          (keydown)="focusPrev($event, otp2)">
+        </ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-input
+          #otp4
+          type="tel"
+          class="otp"
+          pattern="[0-9]{6}"
+          maxlength="1"
+          size="1"
+          name="otp3"
+          [(ngModel)]="otp[3]"
+          (ngModelChange)="modelChange()"
+          (keydown)="focusPrev($event, otp3)">
+        </ion-input>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-item>

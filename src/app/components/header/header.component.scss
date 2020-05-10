@@ -1,0 +1,15 @@
+ion-header {
+  .logo {
+    width: 110px;
+  }
+
+  .menu-icon {
+    padding: 0 7px;
+  }
+
+  ion-toolbar {
+    --background: #ff8426;
+    --border-width: 0!important;
+    --min-height: 50px;
+  }
+}

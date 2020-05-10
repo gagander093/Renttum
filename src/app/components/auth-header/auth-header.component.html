@@ -1,0 +1,9 @@
+<div class="auth-header">
+  <ion-button fill="clear" *ngIf="!hideBack" (click)="goBack()">
+    <ion-icon name="arrow-round-back" color="dark"></ion-icon>
+  </ion-button>
+  <div class="ion-text-center">
+    {{ title }}
+  </div>
+  <img [src]="icon" *ngIf="icon" />
+</div>

@@ -1,0 +1,29 @@
+ion-card {
+  margin: 10px 12px;
+  border-radius: 7px !important;
+  --background: #fff !important;
+
+  h3 {
+    font-size: 21px;
+  }
+
+  p {
+    font-size: 12px !important;
+    color: #222222;
+    margin: 7px 0;
+  }
+
+  ion-button {
+    --border-radius: 15px;
+    --padding-start: 27px;
+    --padding-end: 27px;
+  }
+
+  ion-card-content {
+    padding: 16px 10px !important;
+  }
+
+  img {
+    max-width: 100px;
+  }
+}

@@ -1,0 +1,86 @@
+ion-content {
+  --background: var(--gradient-bg);
+
+  .page-content {
+    background: var(--gradient-bg)!important;
+  }
+}
+
+ion-header {
+  ion-toolbar {
+    --background: var(--gradient-bg);
+    --border-width: 0!important;
+    --min-height: 50px;
+
+    ion-menu-button {
+      img {
+        width: 28px;
+        height: auto;
+      }
+    }
+
+    .header-logo {
+      img {
+        height: 16px;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+
+app-header + ion-content {
+  .page-content {
+    padding-top: 60px;
+  }
+}
+
+ion-menu {
+  ion-header {
+    position: relative;
+    height: 210px;
+    background-size: 100% 210px;
+    padding: 16px;
+
+    ion-avatar {
+      width: 77px;
+      height: 77px;
+      margin-bottom: 12px;
+    }
+
+    h5, h6 {
+      margin: 5px 0;
+      color: #fff;
+    }
+    .left-arrow {
+      float: right;
+    }
+  }
+
+  ion-content {
+    --background: #fff;
+  }
+}
+
+ion-menu-button {
+  ion-menu-toggle {
+    display: none;
+
+    ion-icon {
+      opacity: 0;
+    }
+  }
+}
+
+ion-footer {
+  box-shadow: 0px 2px 14px 0 rgba(0, 0, 0, 0.31);
+
+  ion-button {
+    margin: 0;
+  }
+}
+
+.menuList {
+  img {
+    width: 20px;
+  }
+}

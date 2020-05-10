@@ -1,0 +1,10 @@
+ion-item {
+  --background: #e9f5fd;
+  max-width: 250px;
+  margin: auto;
+
+  ion-input {
+    border: 1px solid #2e2e2e;
+    text-align: center;
+  }
+}

@@ -1,0 +1,38 @@
+.otp-form {
+  padding: 20px;
+  color: #2e2e2e;
+
+  .otp-image {
+    width: 75px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  h2 {
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  ion-button {
+    margin-top: 45px;
+
+    &.button-clear {
+      margin: 0;
+      font-size: 12px;
+      height: 1em;
+      vertical-align: middle;
+      margin-top: -2px;
+    }
+  }
+
+  .center {
+    text-align: center;
+    margin-top: 40px;
+  }
+}

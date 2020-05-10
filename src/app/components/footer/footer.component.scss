@@ -1,0 +1,5 @@
+ion-button {
+  &.footer-btn-active {
+    --ion-color-base: var(--ion-color-warning)!important;
+  }
+}

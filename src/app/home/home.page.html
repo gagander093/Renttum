@@ -1,0 +1,50 @@
+<app-header></app-header>
+
+<ion-content>
+  <div style="height: 200px;margin-bottom: 20px;">
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <ion-card class="welcome-card">
+          <img src="../../assets/images/home/banner1.png" alt="" />
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card class="welcome-card">
+          <img src="../../assets/images/home/banner1.png" alt="" />
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card class="welcome-card">
+          <img src="../../assets/images/home/banner1.png" alt="" />
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card class="welcome-card">
+          <img src="../../assets/images/home/banner1.png" alt="" />
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <ion-grid class="quick-actions">
+    <ion-row>
+      <ion-col size="4" *ngFor="let product of products">
+        <app-home-button [title]="product.TypeName" [typeId]="product.ProductTypeId" [image]="product.ProdTypePic"></app-home-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-card class="welcome-card refer-card">
+    <ion-row>
+      <ion-col size="7"></ion-col>
+      <ion-col size="5" class="ion-text-center">
+        <h5 style="font-size: 14px;font-weight: bold;">
+          Get Up to 1000<br/>
+          for Referring<br/>
+          your friends
+        </h5>
+        <ion-button size="small" color="warning" routerLink="/refer">Refer Now</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>
+
+<app-footer></app-footer>
