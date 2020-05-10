@@ -3,17 +3,14 @@
 <ion-content>
   <div class="page">
     <form class="login-page" (submit)="doLogin()">
-      <img src="../../assets/images/policyTM-logo.png" class="logo">
-      <h1>Hello there!</h1>
-      <h4>Welcome</h4>
-      <p>Login to continue with your mobile number</p>
+      <img src="../../assets/images/login/login.png" class="login-icon">
+      <h1>Sign in to Renttun</h1>
       <ion-item>
         <span item-right>+91</span>
-        <ion-input type="text" placeholder="Enter your mobile number"></ion-input>
+        <ion-input type="text" placeholder="Enter mobile number"></ion-input>
       </ion-item>
-      <p>(A 4-digit OTP will be sent via SMS to verify your mobile number)</p>
-
-      <ion-button type="submit" expand="block" color="warning">LOGIN</ion-button>
+      <ion-button type="submit" expand="block" color="primary">Next</ion-button>
+      <p class="tc-text">By signing up, I agree to the <a href="#.">Terms and Conditions</a></p>
     </form>
   </div>
 </ion-content>

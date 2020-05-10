@@ -1,0 +1,50 @@
+.intro-page {
+    padding: 20px;
+    color: #2e2e2e;
+    text-align: center;
+    .intro-image {
+      height: 300px;
+    }
+  
+    h1 {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: normal;
+        text-align: center;
+    }
+  
+    ion-item {
+      border: 1px solid #2e2e2e;
+      --background: #ffffff;
+      margin: 30px 0 15px;
+  
+      ion-input {
+        --padding-start: 20px;
+        margin-left: 10px;
+        border-left: 1px solid #a7a7a7;
+      }
+    }
+  
+    ion-button {
+      margin-top: 30px;
+    }
+
+    .sign-divide {
+      margin-top: 30px;
+      line-height: 1.65;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #555555;
+    }
+    .social-media-btn {
+      ion-button {
+        width: 46%;
+        ion-icon {
+          padding-right: 10px;
+        }
+        &:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }

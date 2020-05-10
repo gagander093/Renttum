@@ -18,7 +18,7 @@ const routes: Routes = [
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
   },
   {
-    path: 'auth',
+    path: 'login',
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
   {
@@ -36,7 +36,17 @@ const routes: Routes = [
   {
     path: 'redeem',
     loadChildren: () => import('./redeem/redeem.module').then( m => m.RedeemPageModule)
+  },
+  {
+    path: 'auth',
+    loadChildren: () => import('./intro/intro.module').then( m => m.IntroPageModule)
+  },
+  {
+    path: 'set-password',
+    loadChildren: () => import('./set-password/set-password.module').then( m => m.SetPasswordPageModule)
   }
+
+
 ];
 
 @NgModule({

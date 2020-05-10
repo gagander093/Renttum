@@ -1,10 +1,11 @@
 ion-item {
-  --background: #e9f5fd;
+  --background: #ffffff;
   max-width: 250px;
   margin: auto;
 
   ion-input {
-    border: 1px solid #2e2e2e;
+    border: solid 1px #d1d1d1;
+    background-color: #f6f6f6;
     text-align: center;
   }
 }

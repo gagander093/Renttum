@@ -1,7 +1,8 @@
 <div class="auth-header">
   <ion-button fill="clear" *ngIf="!hideBack" (click)="goBack()">
-    <ion-icon name="arrow-round-back" color="dark"></ion-icon>
+    <ion-icon name="md-arrow-back" class="arrow-style"></ion-icon>
   </ion-button>
+  <ion-button class="skip-btn" fill="clear" (click)="home()">Skip</ion-button>
   <div class="ion-text-center">
     {{ title }}
   </div>

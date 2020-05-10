@@ -3,24 +3,20 @@
 <ion-content>
   <div class="page">
     <form class="otp-form" (submit)="validateOtp()">
-      <img src="../../assets/images/login and otp icons/otp icon.png" class="otp-image" />
-      <h1>OTP verification</h1>
-
+      <img src="../../assets/images/login/otp-icon.png" class="otp-image" />
       <div class="ion-text-center">
-        <p>4 digit OTP has been sent to</p>
+        <p class="sent-otp">4 digit OTP has been sent to</p>
         <h2>9876543210</h2>
         <app-otp-input></app-otp-input>
       </div>
-
-      <p class="ion-text-center">
+      <ion-button type="submit" expand="block" color="primary">VERIFY</ion-button>
+      <p class="ion-text-center new-otp">
         Don't get the OTP?
-        <ion-button *ngIf="otpWaitTime <= 0" fill="clear" color="warning" (click)="resendOtp()">Resend OTP</ion-button>
-        <ion-button *ngIf="otpWaitTime > 0" fill="clear" color="warning" disabled>
+        <ion-button *ngIf="otpWaitTime <= 0" fill="clear" color="primary" (click)="resendOtp()">Resend OTP</ion-button>
+        <ion-button *ngIf="otpWaitTime > 0" fill="clear" color="primary" disabled>
           Resend OTP in {{otpWaitTime}}s
         </ion-button>
       </p>
-
-      <ion-button type="submit" expand="block" color="warning">VERIFY</ion-button>
     </form>
   </div>
 </ion-content>

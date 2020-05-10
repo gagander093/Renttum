@@ -1,3 +1,12 @@
 :host {
   background: var(--gradient-bg);
 }
+.arrow-style {
+  color: var(--common-color);
+}
+.skip-btn {
+  float: right;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--common-color);
+}

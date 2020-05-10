@@ -1,6 +1,15 @@
+body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, section, article, aside, header, footer, nav, span {
+	font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #1f234f;
+  font-family: var(--heading-font-family);
 }
 
 h6 {
