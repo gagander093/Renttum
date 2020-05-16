@@ -1,8 +1,8 @@
 <app-header></app-header>
 
 <ion-content>
-  <div style="height: 200px;margin-bottom: 20px;">
-    <ion-slides pager="true" [options]="slideOpts">
+  <div style="height: 190px;margin-bottom: 20px;">
+    <ion-slides (ionSlidesDidLoad)="slidesDidLoad(Slider)" pager="true" [options]="slideOpts">
       <ion-slide>
         <ion-card class="welcome-card">
           <img src="../../assets/images/home/banner1.png" alt="" />
@@ -10,22 +10,25 @@
       </ion-slide>
       <ion-slide>
         <ion-card class="welcome-card">
-          <img src="../../assets/images/home/banner1.png" alt="" />
+          <img src="../../assets/images/home/banner2.png" alt="" />
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card class="welcome-card">
-          <img src="../../assets/images/home/banner1.png" alt="" />
-        </ion-card>
-      </ion-slide>
-      <ion-slide>
-        <ion-card class="welcome-card">
-          <img src="../../assets/images/home/banner1.png" alt="" />
+          <img src="../../assets/images/home/banner3.png" alt="" />
         </ion-card>
       </ion-slide>
     </ion-slides>
   </div>
-  <ion-grid class="quick-actions">
+  <ion-grid class="Categories-section">
+    <ion-row>
+      <ion-col>
+        <div class="title-box">
+          <h3 class="title">Explore Categories</h3>
+          <a class="link-text" href="#.">View All</a> 
+        </div>
+      </ion-col>
+    </ion-row>  
     <ion-row>
       <ion-col size="4" *ngFor="let product of products">
         <app-home-button [title]="product.TypeName" [typeId]="product.ProductTypeId" [image]="product.ProdTypePic"></app-home-button>

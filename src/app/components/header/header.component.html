@@ -1,18 +1,38 @@
-<ion-header>
+<ion-header class="home-header">
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-toggle *ngIf="!showBack">
-        <img src="../../../assets/images/header and footer icons/menu icon.png" class="menu-icon" />
-      </ion-menu-toggle>
-      <ion-back-button defaultHref="home" *ngIf="showBack && !canClick" text="" icon="arrow-round-back" color="light"></ion-back-button>
-      <ion-button class="back-btn" fill="clear" *ngIf="showBack && canClick" (click)="onBackClick()">
-        <ion-icon name="arrow-round-back" color="light"></ion-icon>
-      </ion-button>
-      <img *ngIf="!title" class="logo" src="../../../assets/images/home/white-logo.png" />
-      <h3 *ngIf="!!title">
-        <ion-text color="light">{{ title }}</ion-text>
-      </h3>
-    </ion-buttons>
-    <ion-title>&nbsp;</ion-title>
+    <div class="header-menu">
+      <ion-buttons slot="start">
+        <img class="logo-icon" src="../../../assets/images/header-footer/r-logo.png" />
+  
+        <ion-back-button defaultHref="home" *ngIf="showBack && !canClick" text="" icon="arrow-round-back" color="light"></ion-back-button>
+       
+        <ion-button class="back-btn" fill="clear" *ngIf="showBack && canClick" (click)="onBackClick()">
+          <ion-icon name="arrow-round-back" color="light"></ion-icon>
+        </ion-button>
+        
+         <ion-button class="address-btn" fill="clear">
+          <ion-icon name="md-pin"></ion-icon> <span class="city-name">Select Your loaction</span>
+          <ion-icon name="arrow-down"></ion-icon>
+         </ion-button>
+        
+        <h3 *ngIf="!!title">
+          <ion-text color="light">{{ title }}</ion-text>
+        </h3>
+      </ion-buttons>
+      <ion-title>&nbsp;</ion-title>
+      <div class="ion-text-right" fill="clear">
+        <ion-button class="menu-item ion-no-padding" fill="clear">
+          <span class="badge">2</span>
+          <ion-icon name="md-notifications"></ion-icon>
+        </ion-button>
+        <ion-button class="menu-item ion-no-padding" fill="clear">
+          <span class="badge">5</span>
+          <ion-icon name="md-heart"></ion-icon>
+        </ion-button>
+      </div>
+    </div>
+    <div class="header-serach">
+      <ion-searchbar placeholder="Serach for Products and More..."></ion-searchbar>
+    </div>
   </ion-toolbar>
 </ion-header>

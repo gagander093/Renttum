@@ -15,6 +15,11 @@ export class HomePage {
     { TypeName: 'Car Insurance', ProductTypeId: 'ci', ProdTypePic: '../../../assets/images/home/5-icon.png' },
     { TypeName: 'Bike Insurance', ProductTypeId: 'bi', ProdTypePic: '../../../assets/images/home/6-icon.png' }
   ];
+  slideOpts = {
+    initialSlide: 1,
+    speed: 400,
+    startAutoplay: true
+  };
 
   constructor() {}
 

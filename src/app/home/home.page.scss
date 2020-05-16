@@ -13,3 +13,27 @@
   }
 }
 
+.Categories-section {
+  .title-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    .title {
+      font-family: 'NotoSans', sans-serif;
+      flex-grow: 1;
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: #282623;
+      margin: 0;
+    }
+    .link-text {
+      font-size: 15px;
+      letter-spacing: 1.2px;
+      color: #1f34ae;
+      text-align: right;
+      text-decoration: underline;
+    }
+  }
+}

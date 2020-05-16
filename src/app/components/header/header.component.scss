@@ -1,15 +1,56 @@
 ion-header {
-  .logo {
-    width: 110px;
-  }
+  padding: 10px;
 
-  .menu-icon {
-    padding: 0 7px;
+  .header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
+  .logo-icon {
+    width: 18px;
+  }
+  .toolbar-content {
+    text-align: right;
+  }
+  .address-btn {
+    color: #ffffff;
+    font-size: 14px;
+    .city-name {
+      font-size: 14px;
+    }
+  }
+  .menu-item {
+    position: relative;
+    color: #ffffff;
+    ion-icon {
+      width: 38px;
+    }
+    .badge {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      border: solid 1.5px #1f34ae;
+      background-color: #ffffff;
+      font-size: 12.8px;
+      font-weight: 500;
+      color: #1f34ae;
+      z-index: 1;
+      border-radius: 50%;
+      top: 3px;
+      right: 0;
+    }
+  }
   ion-toolbar {
-    --background: #ff8426;
+    --background: #1e319d;
     --border-width: 0!important;
-    --min-height: 50px;
+    border-radius: 10px;
+    padding: 8px;
+  }
+
+  .header-serach {
+    ion-searchbar {
+      --background: #ffffff;
+      --border-radius: 40px;
+    }
   }
 }
