@@ -2,7 +2,7 @@
 
 <ion-content>
   <div style="height: 190px;margin-bottom: 20px;">
-    <ion-slides (ionSlidesDidLoad)="slidesDidLoad(Slider)" pager="true" [options]="slideOpts">
+    <ion-slides pager="true" [options]="slideOpts">
       <ion-slide>
         <ion-card class="welcome-card">
           <img src="../../assets/images/home/banner1.png" alt="" />
@@ -30,24 +30,37 @@
       </ion-col>
     </ion-row>  
     <ion-row>
-      <ion-col size="4" *ngFor="let product of products">
-        <app-home-button [title]="product.TypeName" [typeId]="product.ProductTypeId" [image]="product.ProdTypePic"></app-home-button>
+      <ion-col size="4" *ngFor="let category of category">
+        <app-home-button [title]="category.TypeName" [typeId]="category.ProductTypeId" [image]="category.ProdTypePic"></app-home-button>
       </ion-col>
     </ion-row>
   </ion-grid>
-  <ion-card class="welcome-card refer-card">
+  <ion-grid class="product-section">
     <ion-row>
-      <ion-col size="7"></ion-col>
-      <ion-col size="5" class="ion-text-center">
-        <h5 style="font-size: 14px;font-weight: bold;">
-          Get Up to 1000<br/>
-          for Referring<br/>
-          your friends
-        </h5>
-        <ion-button size="small" color="warning" routerLink="/refer">Refer Now</ion-button>
+      <ion-col>
+        <div class="title-box">
+          <h3 class="title">Products Like to Rent</h3>
+        </div>
       </ion-col>
+    </ion-row>  
+    <ion-row>
+      <ion-col size="6">
+          <app-product-card></app-product-card>
+      </ion-col>
+      <ion-col size="6">
+        <app-product-card></app-product-card>
+      </ion-col>
+      <ion-col size="6">
+        <app-product-card></app-product-card>
+      </ion-col>
+      <ion-col size="6">
+        <app-product-card></app-product-card>
+      </ion-col>
+
     </ion-row>
-  </ion-card>
+
+  </ion-grid>
+
 </ion-content>
 
 <app-footer></app-footer>

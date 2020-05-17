@@ -18,7 +18,7 @@ export class HomeButtonsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.bgImage = `url("${this.image}")`;
+    this.bgImage = `${this.image}`;
   }
 
   getLink() {

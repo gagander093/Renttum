@@ -1,31 +1,38 @@
 :host {
-  height: 125px;
+  height: 130px;
   display: block;
   border-radius: 12px;
-  box-shadow: 0px 3px 3px 0 #cccccc;
-  border: solid 1px #ececec;
   background-color: #fff;
-  padding: 14px;
   font-size: 12px;
-  color: #222;
+  color: #535353;
   margin: 3px;
+  overflow: hidden;
 
-  div {
+  div.category-card {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-weight: bold;
-
-    .icon {
-      width: 60px;
-      height: 60px;
+    .cat-title {
+      margin: 0;
+      font-size: 14px;
+      padding: 0 10px;
+    }
+    .category-images {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90px;
+      height: 90px;
       margin: auto;
       margin-bottom: 7px;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-color: rgba(30, 49, 157, 0.10);
+      border-radius: 50%;
+      img {
+        width: 54px;
+      }
     }
   }
 }

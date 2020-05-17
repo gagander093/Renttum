@@ -1,18 +1,36 @@
 <ion-footer>
   <ion-grid>
-    <ion-row>
-      <ion-col>
-        <ion-button expand="full" color="dark" fill="clear" routerLink="/home" routerLinkActive="footer-btn-active">
-          <ion-icon class="footer-icon" name="home"></ion-icon>
-          Home
-        </ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-button class="active" expand="full" color="dark" fill="clear" routerLink="/earning" routerLinkActive="footer-btn-active">
-          <ion-icon class="footer-icon" name="wallet"></ion-icon>
-          Dashboard
-        </ion-button>
-      </ion-col>
-    </ion-row>
+        <div class="footer-menu-list">
+          <ion-button color="dark" fill="clear" routerLink="/home" routerLinkActive="footer-btn-active">
+            <div class="footer-icon-box">
+              <ion-icon class="footer-icon" name="home"></ion-icon>
+              <span class="f-name">Home</span>
+            </div>
+          </ion-button>
+          <ion-button color="dark" fill="clear" routerLink="/adds" routerLinkActive="footer-btn-active">
+            <div class="footer-icon-box">
+              <ion-icon class="footer-icon" name="paper"></ion-icon>
+              <span class="f-name">My Adds</span>
+            </div>
+          </ion-button>
+          <ion-button color="dark" fill="clear" routerLink="/rent" routerLinkActive="footer-btn-active">
+            <div class="footer-icon-box">
+              <ion-icon class="footer-icon-middle" name="add"></ion-icon>
+              <span class="f-name">Rent</span>
+            </div>
+          </ion-button>
+          <ion-button color="dark" fill="clear" routerLink="/paper" routerLinkActive="footer-btn-active">
+            <div class="footer-icon-box">
+              <ion-icon class="footer-icon" name="chatbubbles"></ion-icon>
+              <span class="f-name">Chat</span>
+            </div>
+          </ion-button>
+          <ion-button color="dark" fill="clear" routerLink="/me" routerLinkActive="footer-btn-active">
+            <div class="footer-icon-box">
+              <ion-icon class="footer-icon" name="contact"></ion-icon>
+              <span class="f-name">Me</span>
+            </div>
+          </ion-button>
+        </div>
   </ion-grid>
 </ion-footer>

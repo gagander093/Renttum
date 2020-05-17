@@ -1,4 +1,6 @@
-<div [routerLink]="getLink()">
-  <div [ngStyle]="{ 'background-image': bgImage }" class="icon"></div>
-  {{ title }}
+<div class="category-card" [routerLink]="getLink()">
+  <div  class="category-images">
+    <img src={{bgImage}} alt="category" />
+  </div>
+  <p class="cat-title"> {{ title }} </p>
 </div>

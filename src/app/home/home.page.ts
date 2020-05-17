@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,19 +6,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  products = [
-    { TypeName: 'Health Insurance', ProductTypeId: 'hi', ProdTypePic: '../../../assets/images/home/1-icon.png' },
-    { TypeName: 'Life Insurance', ProductTypeId: 'li', ProdTypePic: '../../../assets/images/home/2-icon.png' },
-    { TypeName: 'General Insurance', ProductTypeId: 'gi', ProdTypePic: '../../../assets/images/home/3-icon.png' },
-    { TypeName: 'Term Insurance', ProductTypeId: 'ti', ProdTypePic: '../../../assets/images/home/4-icon.png' },
-    { TypeName: 'Car Insurance', ProductTypeId: 'ci', ProdTypePic: '../../../assets/images/home/5-icon.png' },
-    { TypeName: 'Bike Insurance', ProductTypeId: 'bi', ProdTypePic: '../../../assets/images/home/6-icon.png' }
+  category = [
+    { TypeName: 'Home Furniture', ProductTypeId: 'hi', ProdTypePic: '../../../assets/images/home/home-item.png' },
+    { TypeName: 'Mobile & Tablets', ProductTypeId: 'li', ProdTypePic: '../../../assets/images/home/connection.png' },
+    { TypeName: 'Men’s Fashion', ProductTypeId: 'gi', ProdTypePic: '../../../assets/images/home/man.png' },
+    { TypeName: 'Music & Media', ProductTypeId: 'ti', ProdTypePic: '../../../assets/images/home/string-instrument2.png' },
+    { TypeName: 'Motor & Bikes', ProductTypeId: 'ci', ProdTypePic: '../../../assets/images/home/transport.png' },
+    { TypeName: 'Books & Stationery', ProductTypeId: 'bi', ProdTypePic: '../../../assets/images/home/flat.png' }
   ];
-  slideOpts = {
-    initialSlide: 1,
-    speed: 400,
-    startAutoplay: true
-  };
 
   constructor() {}
 

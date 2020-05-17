@@ -1,5 +1,31 @@
-ion-button {
-  &.footer-btn-active {
-    --ion-color-base: var(--ion-color-warning)!important;
+.footer-menu-list {
+  ion-button {
+    --ion-color-base: var(--ion-color-medium)!important;
+    width: 20%;
+    .footer-icon-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .footer-icon-middle {
+        width: 32px;
+        height: 32px;
+        background-color: #1f34ae;
+        color: #ffffff;
+        border-radius: 8px
+      }
+      .f-name {
+        font-size: 14px;
+        text-transform: capitalize;
+      }
+    }
+    &.footer-btn-active {
+      --ion-color-base: var(--ion-color-dark)!important;
+      .footer-icon-box {
+        .f-name {
+          font-weight: bold;
+        }
+       }
+    }
   }
 }

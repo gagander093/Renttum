@@ -11,6 +11,7 @@ import { HomeButtonsComponent } from './home-buttons/home-buttons.component';
 import { ThankYouModalComponent } from './thank-you-modal/thank-you-modal.component';
 import { RedeemModalComponent } from './redeem-modal/redeem-modal.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeButtonsComponent,
     ThankYouModalComponent,
     RedeemModalComponent,
-    FooterComponent
+    FooterComponent,
+    ProductCardComponent
   ],
   imports: [
     FormsModule,
@@ -35,7 +37,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeButtonsComponent,
     ThankYouModalComponent,
     RedeemModalComponent,
-    FooterComponent
+    FooterComponent,
+    ProductCardComponent
   ],
   entryComponents: [
     ThankYouModalComponent,
