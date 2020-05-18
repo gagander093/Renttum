@@ -11,4 +11,8 @@ export class ProductCardComponent implements OnInit {
 
   ngOnInit() {}
 
+  getLink() {
+    return `/products-details`;
+  }
+
 }

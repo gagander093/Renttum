@@ -33,3 +33,15 @@
     --bullet-background-active: #1e319d;
   }
 }
+
+.product-slider { 
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 25px !important;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+  }
+}
+

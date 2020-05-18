@@ -4,7 +4,17 @@ ion-header {
   .header-menu {
     display: flex;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
+    .title-menu {
+      flex-grow: 1;
+    }
+    .title-name {
+      margin: 0;
+      padding-left: 10px;
+      font-size: 18px;
+      /* font-weight: bold; */
+      text-transform: capitalize;
+    }
   }
   .logo-icon {
     width: 18px;
@@ -51,6 +61,8 @@ ion-header {
     ion-searchbar {
       --background: #ffffff;
       --border-radius: 40px;
+      margin: 0;
+      padding: 0;
     }
   }
 }

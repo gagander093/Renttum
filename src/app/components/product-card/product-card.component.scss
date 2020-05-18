@@ -26,6 +26,14 @@ ion-card.product-card {
     }
     ion-card-content {
         padding: 5px !important;
-       
-    }
+        display: flex;
+        .rent-info {
+            flex-grow: 1;
+        }
+        .whishlist {
+            ion-icon {
+                font-size: 21px;
+            }
+        }
+    }   
 }

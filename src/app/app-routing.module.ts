@@ -44,7 +44,16 @@ const routes: Routes = [
   {
     path: 'set-password',
     loadChildren: () => import('./set-password/set-password.module').then( m => m.SetPasswordPageModule)
+  },
+  {
+    path: 'products-list/:id',
+    loadChildren: () => import('./products-list/products-list.module').then( m => m.ProductsListPageModule)
+  },  {
+    path: 'products-details',
+    loadChildren: () => import('./products-details/products-details.module').then( m => m.ProductsDetailsPageModule)
   }
+
+
 
 
 ];

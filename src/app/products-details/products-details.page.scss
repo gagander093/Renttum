@@ -1,0 +1,24 @@
+.product-slider {
+    ion-slide {
+        .product-card {
+            margin: 10px 0 20px;
+            width: 94%;
+            height: 250px;
+            img {
+                height: 250px;
+                object-fit: cover;
+            }
+        }
+    } 
+}
+.product-details-section {
+    padding: 10px 10px;
+    .product-title {
+        h2 {
+            font-weight: bold;
+            font-size: 24px;
+            margin-top: 0;
+            color: #222222;
+        }
+    }
+}

@@ -22,7 +22,7 @@ export class HomeButtonsComponent implements OnInit {
   }
 
   getLink() {
-    return `/enquiry/${this.typeId}`;
+    return `/products-list/${this.typeId}`;
   }
 
 }
