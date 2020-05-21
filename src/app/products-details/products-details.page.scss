@@ -1,7 +1,7 @@
 .product-slider {
     ion-slide {
         .product-card {
-            margin: 10px 0 20px;
+            margin: 0px 0 10px;
             width: 94%;
             height: 250px;
             img {
@@ -12,13 +12,104 @@
     } 
 }
 .product-details-section {
-    padding: 10px 10px;
+    padding: 10px 15px;
     .product-title {
         h2 {
             font-weight: bold;
-            font-size: 24px;
+            font-size: 21px;
             margin-top: 0;
             color: #222222;
         }
     }
+
+    .user-details {
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .user-box {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            .user-image {
+                img {
+                    width: 50px;
+                    margin-right: 10px;
+                }
+            }
+            .user-info {
+                p {
+                    font-size: 14px;
+                    color: var( --ion-color-medium);
+                    margin: 0;
+                }
+                h3 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin: 0;
+                }
+            }
+        }
+        .like-btn {
+            ion-icon {
+                font-size: 24px;
+                color: var( --ion-color-medium);
+            }
+        }
+    }
+
+    .product-prize-row {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        .product-col {
+            &.divider-right {
+                border-right: 1px solid #ccc;
+            }
+            .product-amt {
+                padding: 5px 0;
+                h3 {
+                    margin: 0;
+                    font-size: 32px;
+                    font-weight: 900;
+                }
+                .product-title {
+                    margin-left: 30px;
+                    font-size: 14px;
+                    color: var( --ion-color-medium);
+                }
+            }
+            .deposit-amt {
+                text-align: right;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h3 {
+                    margin: 0;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .product-title {
+                    margin-left: 30px;
+                    font-size: 14px;
+                    color: var(--ion-color-medium);
+                }
+            }
+        }
+    } 
+
+    .des-section {
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .product-list {
+            padding-left: 20px;
+            li {
+                
+                padding-bottom: 5px;
+            }
+        }
+    }
+
 }
