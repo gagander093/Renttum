@@ -1,0 +1,12 @@
+ion-footer {
+    &.product-footer {
+        .border-rt {
+            border-right: 1px solid #cccccc;
+        }
+        ion-button {
+            ion-icon {
+                margin-right: 4px;
+            }
+        }
+    }
+}

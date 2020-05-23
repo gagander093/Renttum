@@ -12,6 +12,7 @@ import { ThankYouModalComponent } from './thank-you-modal/thank-you-modal.compon
 import { RedeemModalComponent } from './redeem-modal/redeem-modal.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductCardComponent } from './product-card/product-card.component';
+import { ProductFooterComponent } from './product-footer/product-footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductCardComponent } from './product-card/product-card.component';
     ThankYouModalComponent,
     RedeemModalComponent,
     FooterComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ProductFooterComponent
   ],
   imports: [
     FormsModule,
@@ -38,7 +40,8 @@ import { ProductCardComponent } from './product-card/product-card.component';
     ThankYouModalComponent,
     RedeemModalComponent,
     FooterComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ProductFooterComponent
   ],
   entryComponents: [
     ThankYouModalComponent,
