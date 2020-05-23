@@ -13,6 +13,8 @@ import { RedeemModalComponent } from './redeem-modal/redeem-modal.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { ProductFooterComponent } from './product-footer/product-footer.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { ProductFooterComponent } from './product-footer/product-footer.componen
     RedeemModalComponent,
     FooterComponent,
     ProductCardComponent,
-    ProductFooterComponent
+    ProductFooterComponent,
+    CategoriesComponent
   ],
   imports: [
     FormsModule,
@@ -41,7 +44,8 @@ import { ProductFooterComponent } from './product-footer/product-footer.componen
     RedeemModalComponent,
     FooterComponent,
     ProductCardComponent,
-    ProductFooterComponent
+    ProductFooterComponent,
+    CategoriesComponent
   ],
   entryComponents: [
     ThankYouModalComponent,
