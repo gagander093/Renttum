@@ -1,0 +1,31 @@
+.wishlist-card {
+    padding: 0;
+    margin: 10px;
+    .product-image {
+        border-radius: 5px;
+        img {
+            height: 110px;
+            object-fit: fill;
+        }
+    }
+    .product-details {
+        display: flex;
+        flex-direction: column;
+        .product-name {
+            font-weight: bold;
+            font-size: 16px;
+            color: var(--ion-color-dark);
+            margin-bottom: auto;
+        }
+        .other-details {
+            .address {
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+            }
+            .rent-amt {
+                font-size: 14px;
+            }
+        }
+    }
+}

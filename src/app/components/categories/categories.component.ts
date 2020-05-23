@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-categories',
@@ -7,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoriesComponent implements OnInit {
 
+  @Input() typeId;
+
   constructor() { }
 
   ngOnInit() {}
+
+  buttonClick() {
+    return `/products-list/${this.typeId}`;
+  }
 
 }

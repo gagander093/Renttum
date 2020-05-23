@@ -48,13 +48,18 @@ const routes: Routes = [
   {
     path: 'products-list/:id',
     loadChildren: () => import('./products-list/products-list.module').then( m => m.ProductsListPageModule)
-  },  {
+  },
+  {
     path: 'products-details',
     loadChildren: () => import('./products-details/products-details.module').then( m => m.ProductsDetailsPageModule)
   },
   {
     path: 'all-categories',
     loadChildren: () => import('./all-categories/all-categories.module').then( m => m.AllCategoriesPageModule)
+  },
+  {
+    path: 'wishlist',
+    loadChildren: () => import('./wishlist/wishlist.module').then( m => m.WishlistPageModule)
   }
 
 

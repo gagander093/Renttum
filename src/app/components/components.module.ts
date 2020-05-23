@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { ProductFooterComponent } from './product-footer/product-footer.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { WishlistCardComponent } from './wishlist-card/wishlist-card.component';
 import { from } from 'rxjs';
 
 @NgModule({
@@ -27,7 +28,8 @@ import { from } from 'rxjs';
     FooterComponent,
     ProductCardComponent,
     ProductFooterComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    WishlistCardComponent
   ],
   imports: [
     FormsModule,
@@ -45,7 +47,8 @@ import { from } from 'rxjs';
     FooterComponent,
     ProductCardComponent,
     ProductFooterComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    WishlistCardComponent
   ],
   entryComponents: [
     ThankYouModalComponent,
