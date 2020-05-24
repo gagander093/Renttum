@@ -25,7 +25,8 @@ ion-card.product-card {
         }
     }
     ion-card-content {
-        padding: 5px !important;
+        padding: 5px !important;      
+        background-color: #f7f7f7;
         display: flex;
         .rent-info {
             flex-grow: 1;

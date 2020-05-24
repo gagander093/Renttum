@@ -60,7 +60,11 @@ const routes: Routes = [
   {
     path: 'wishlist',
     loadChildren: () => import('./wishlist/wishlist.module').then( m => m.WishlistPageModule)
+  },  {
+    path: 'my-adds',
+    loadChildren: () => import('./my-adds/my-adds.module').then( m => m.MyAddsPageModule)
   }
+
 
 
 
