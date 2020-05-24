@@ -1,0 +1,33 @@
+<app-header title="Set A Price" [showBack]="true"></app-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+       <form class="rent-form">
+        <ion-item>
+          <ion-label position="floating">Rent Type*</ion-label>
+          <ion-select placeholder="Select Categories">
+            <ion-select-option value="c1">Home Furniture</ion-select-option>
+            <ion-select-option value="c2">Mobile Phones & Tablets</ion-select-option>
+            <ion-select-option value="c3">Motor Bikes</ion-select-option>
+            <ion-select-option value="c4">Music & Media</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Rent Price(&#8377;)*</ion-label>
+          <ion-input type="text" placeholder="Enter rent price"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Deposit Refundable(&#8377;)*</ion-label>
+          <ion-input type="text" placeholder="Enter deposit price refundable "></ion-input>
+        </ion-item>
+
+        <ion-button class="mt-2" routerLink="/add-rent-loaction" expand="block" color="primary">Next</ion-button>
+      </form>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<app-footer></app-footer>

@@ -63,6 +63,22 @@ const routes: Routes = [
   },  {
     path: 'my-adds',
     loadChildren: () => import('./my-adds/my-adds.module').then( m => m.MyAddsPageModule)
+  },
+  {
+    path: 'add-rent-upload',
+    loadChildren: () => import('./add-rent-upload/add-rent-upload.module').then( m => m.AddRentUploadPageModule)
+  },
+  {
+    path: 'add-rent-details',
+    loadChildren: () => import('./add-rent-details/add-rent-details.module').then( m => m.AddRentDetailsPageModule)
+  },
+  {
+    path: 'add-rent-price',
+    loadChildren: () => import('./add-rent-price/add-rent-price.module').then( m => m.AddRentPricePageModule)
+  },
+  {
+    path: 'add-rent-loaction',
+    loadChildren: () => import('./add-rent-loaction/add-rent-loaction.module').then( m => m.AddRentLoactionPageModule)
   }
 
 

@@ -20,7 +20,7 @@
         </h3>
       </ion-buttons>
       <ion-title>&nbsp;</ion-title>
-      <div class="ion-text-right" fill="clear">
+      <div *ngIf="!showBack"  class="ion-text-right" fill="clear">
         <ion-button class="menu-item ion-no-padding" fill="clear">
           <span class="badge">2</span>
           <ion-icon name="md-notifications"></ion-icon>

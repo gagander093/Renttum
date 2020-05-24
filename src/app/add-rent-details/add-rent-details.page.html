@@ -1,0 +1,24 @@
+<app-header title="Inclide Some Details" [showBack]="true"></app-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+       <form class="rent-form">
+        <ion-item>
+          <ion-label position="floating">Ad Title*</ion-label>
+          <ion-input type="text" placeholder="Enter Ad Name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Ad Description*</ion-label>
+          <ion-textarea placeholder="Describe what you are Renting"></ion-textarea>
+        </ion-item>
+
+        <ion-button class="mt-2" routerLink="/add-rent-price" expand="block" color="primary">Next</ion-button>
+      </form>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<app-footer></app-footer>

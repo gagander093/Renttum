@@ -1,0 +1,26 @@
+<app-header title="Confirm Your Location" [showBack]="true"></app-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+       <form class="rent-form">
+        <ion-item>
+          <ion-label position="floating">
+            <ion-icon name="pin"></ion-icon>
+            Loaction
+          </ion-label>
+          <ion-select placeholder="Select City">
+            <ion-select-option value="city1">Pune</ion-select-option>
+            <ion-select-option value="city2">Mumbai</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-button class="mt-2" routerLink="/add-rent-loaction" expand="block" color="primary">Next</ion-button>
+       </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>     
+ 
+</ion-content>
+
+<app-footer></app-footer>

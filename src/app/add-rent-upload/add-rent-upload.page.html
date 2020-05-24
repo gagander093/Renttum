@@ -1,0 +1,34 @@
+<app-header title="Upload Your Ad Photo" [showBack]="true"></app-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6">
+                <ion-button class="upload-btn" expand="block">
+                    <div class="upload-icon">
+                        <ion-icon name="camera"></ion-icon>
+                        <ion-label class="title">Take a Picture</ion-label>
+                    </div>
+                </ion-button>
+            </ion-col>
+            <ion-col size="6">
+                <ion-button class="upload-btn" expand="block">
+                    <div class="upload-icon">
+                        <ion-icon name="folder"></ion-icon>
+                        <ion-label class="title">Folders</ion-label>
+                    </div>
+                </ion-button>
+            </ion-col>
+            <ion-col size="12">
+                <p class="upload-info">Upload more photo increases your <br/> chance to get rented</p>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="12">
+                <ion-button class="mt-2" expand="block" color="primary" routerLink="/add-rent-details">Next</ion-button>
+            </ion-col>
+        </ion-row>    
+    </ion-grid>    
+</ion-content>
+
+<app-footer></app-footer>
