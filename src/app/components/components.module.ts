@@ -16,6 +16,7 @@ import { ProductFooterComponent } from './product-footer/product-footer.componen
 import { CategoriesComponent } from './categories/categories.component';
 import { WishlistCardComponent } from './wishlist-card/wishlist-card.component';
 import { AddsBoxComponent } from './adds-box/adds-box.component';
+import { SubCategoriesCardComponent } from './sub-categories-card/sub-categories-card.component';
 import { from } from 'rxjs';
 
 @NgModule({
@@ -31,7 +32,8 @@ import { from } from 'rxjs';
     ProductFooterComponent,
     CategoriesComponent,
     WishlistCardComponent,
-    AddsBoxComponent
+    AddsBoxComponent,
+    SubCategoriesCardComponent
   ],
   imports: [
     FormsModule,
@@ -51,7 +53,8 @@ import { from } from 'rxjs';
     ProductFooterComponent,
     CategoriesComponent,
     WishlistCardComponent,
-    AddsBoxComponent
+    AddsBoxComponent,
+    SubCategoriesCardComponent
   ],
   entryComponents: [
     ThankYouModalComponent,

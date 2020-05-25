@@ -79,6 +79,10 @@ const routes: Routes = [
   {
     path: 'add-rent-loaction',
     loadChildren: () => import('./add-rent-loaction/add-rent-loaction.module').then( m => m.AddRentLoactionPageModule)
+  },
+  {
+    path: 'sub-categories',
+    loadChildren: () => import('./sub-categories/sub-categories.module').then( m => m.SubCategoriesPageModule)
   }
 
 

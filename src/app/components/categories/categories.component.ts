@@ -14,7 +14,7 @@ export class CategoriesComponent implements OnInit {
   ngOnInit() {}
 
   buttonClick() {
-    return `/products-list/${this.typeId}`;
+    return `/sub-categories`;
   }
 
 }
