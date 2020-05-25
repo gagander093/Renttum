@@ -6,6 +6,30 @@
       <ion-col size="12">
        <form class="rent-form">
         <ion-item>
+          <ion-label position="floating">
+            Rent Categories*
+          </ion-label>
+          <ion-select placeholder="Select Categories">
+            <ion-select-option value="Categories1"> Mobile & Tablets </ion-select-option>
+            <ion-select-option value="Categories2"> Motor & Bikes </ion-select-option>
+            <ion-select-option value="Categories3"> Music & Media </ion-select-option>
+            <ion-select-option value="Categories4"> Books & Stationery </ion-select-option>
+            <ion-select-option value="Categories5"> Home Furniture </ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">
+            Rent Sub Categories*
+          </ion-label>
+          <ion-select placeholder="Select Sub Categories">
+            <ion-select-option value="Categories1"> Mobile </ion-select-option>
+            <ion-select-option value="Categories2"> Tablets </ion-select-option>
+            <ion-select-option value="Categories3"> Laptops </ion-select-option>
+            <ion-select-option value="Categories4"> Mobile Accessories </ion-select-option>
+            <ion-select-option value="Categories5"> Speakers </ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
           <ion-label position="floating">Ad Title*</ion-label>
           <ion-input type="text" placeholder="Enter Ad Name"></ion-input>
         </ion-item>
@@ -13,7 +37,6 @@
           <ion-label position="floating">Ad Description*</ion-label>
           <ion-textarea placeholder="Describe what you are Renting"></ion-textarea>
         </ion-item>
-
         <ion-button class="mt-2" routerLink="/add-rent-price" expand="block" color="primary">Next</ion-button>
       </form>
     </ion-col>
