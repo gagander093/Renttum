@@ -1,0 +1,44 @@
+.profile-page {
+    .profile-form {
+        padding: 0 15px;
+        .user-image-box {
+            padding: 15px 0;
+            .user-image {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: baseline;
+                img {
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 50%;
+                }
+                .edit-btn {
+                    bottom: 5px;
+                    color: #1e319d;
+                    border: 1px solid;
+                    border-radius: 50%;
+                    height: 18px;
+                    width: 18px;
+                    box-shadow: 0 1px 3px;
+                    margin-left: -12px;
+                    margin-bottom: -5px;
+                }
+            }
+            p {
+                letter-spacing: 0.56px;
+                text-align: center;
+                color: #7d7d7d;
+                text-align: center;
+                margin: 8px 0;
+            }
+        }
+        ion-item {
+            --padding-start: 0;
+            --padding-bottom: 10px;
+            ion-datetime {
+                --margin-bottom: 0;
+            }
+        }
+    }  
+}

@@ -1,0 +1,47 @@
+<app-header title="Edit Profile" [showBack]="true"></app-header>
+
+<ion-content>
+  <div class="profile-page">
+    <form class="profile-form">
+      <ion-list>
+        <div class="user-image-box">
+          <div class="user-image">
+            <img src="../../assets/images/user.png">
+            <span class="edit-btn"> <ion-icon name="add-circle"></ion-icon></span>
+          </div>
+          <p>Profile Photo</p>
+        </div>
+        <ion-item>
+          <ion-input type="text" placeholder="First Name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" placeholder="Last Name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" placeholder="My City"></ion-input>
+        </ion-item>
+        <ion-list-header>
+          Private Profile
+        </ion-list-header>
+        <ion-item>
+          <ion-input type="text" placeholder="Email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" placeholder="Mobile Number" value="+91- 701234567"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-select placeholder="Select Gender">
+            <ion-select-option value="f">Female</ion-select-option>
+            <ion-select-option value="m">Male</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-item>
+            <ion-datetime displayFormat="MM DD YY" placeholder="Brithday"></ion-datetime>
+          </ion-item>
+        </ion-item>
+      </ion-list>  
+      <ion-button type="submit" expand="block" color="primary">Save</ion-button>
+    </form>
+  </div>
+</ion-content>

@@ -87,6 +87,14 @@ const routes: Routes = [
   {
     path: 'setting',
     loadChildren: () => import('./setting/setting.module').then( m => m.SettingPageModule)
+  },
+  {
+    path: 'edit-profile',
+    loadChildren: () => import('./edit-profile/edit-profile.module').then( m => m.EditProfilePageModule)
+  },
+  {
+    path: 'ads-packages',
+    loadChildren: () => import('./ads-packages/ads-packages.module').then( m => m.AdsPackagesPageModule)
   }
 
 
