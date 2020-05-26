@@ -18,3 +18,12 @@
 .upload-info {
     text-align: center;
 }
+.uploaded-photo-list {
+    ion-label {
+        display: flex;
+        align-items: center;
+        p {
+            flex-grow: 1;
+        }
+    }
+}

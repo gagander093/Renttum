@@ -83,6 +83,10 @@ const routes: Routes = [
   {
     path: 'sub-categories',
     loadChildren: () => import('./sub-categories/sub-categories.module').then( m => m.SubCategoriesPageModule)
+  },
+  {
+    path: 'setting',
+    loadChildren: () => import('./setting/setting.module').then( m => m.SettingPageModule)
   }
 
 
