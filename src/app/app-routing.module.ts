@@ -95,6 +95,14 @@ const routes: Routes = [
   {
     path: 'ads-packages',
     loadChildren: () => import('./ads-packages/ads-packages.module').then( m => m.AdsPackagesPageModule)
+  },
+  {
+    path: 'ads-packages-pay',
+    loadChildren: () => import('./ads-packages-pay/ads-packages-pay.module').then( m => m.AdsPackagesPayPageModule)
+  },
+  {
+    path: 'payment-methods',
+    loadChildren: () => import('./payment-methods/payment-methods.module').then( m => m.PaymentMethodsPageModule)
   }
 
 

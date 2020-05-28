@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="820px" height="222px" viewBox="0 0 820 222" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>upi</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="upi">
+            <g id="XMLID_2_">
+                <g id="XMLID_6_" fill="#70706E">
+                    <polygon id="XMLID_11_" points="627.7 220.6 583.8 220.6 644.8 0.3 688.7 0.3"></polygon>
+                    <g id="XMLID_9_" transform="translate(288.000000, 0.000000)">
+                        <path d="M316.9,7.2 C313.9,3 309.2,0.9 302.8,0.9 L61.6,0.9 L49.7,44.1 L93.6,44.1 L269.1,44.1 L256.3,90.2 L80.8,90.2 L80.8,90.1 L36.9,90.1 L0.5,221.6 L44.4,221.6 L68.8,133.4 L266.1,133.4 C272.3,133.4 278.1,131.3 283.5,127.1 C288.9,122.9 292.5,117.7 294.2,111.5 L318.6,23.3 C320.5,16.7 319.9,11.4 316.9,7.2 Z" id="XMLID_10_"></path>
+                    </g>
+                    <path d="M262.9,206.8 C260.5,215.5 252.5,221.6 243.5,221.6 L17.2,221.6 C11,221.6 6.4,219.5 3.4,215.3 C0.4,211.1 -0.3,205.9 1.5,199.7 L56.7,0.9 L100.6,0.9 L51.3,178.5 L226.9,178.5 L276.2,0.9 L320.1,0.9 L262.9,206.8 Z" id="XMLID_7_"></path>
+                </g>
+                <g id="XMLID_3_" transform="translate(664.000000, 0.000000)">
+                    <polygon id="XMLID_5_" fill="#098041" points="100.5 0.7 156 111.1 39.3 221.5"></polygon>
+                    <polygon id="XMLID_4_" fill="#E97626" points="61.5 0.7 117 111.1 0.2 221.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

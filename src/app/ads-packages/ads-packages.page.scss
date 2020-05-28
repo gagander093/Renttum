@@ -13,4 +13,58 @@
             text-transform: uppercase;
         }
     }
+    .post-section {
+        h2.post-title {
+            font-size: 21px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: 0.92px;
+            color: #222222;
+        }
+        .check-point {
+            display: flex;
+            align-items: center;
+            ion-icon {
+                color: var(--ion-color-success);
+                font-size: 36px;
+            }
+        }
+    }
+   .ads-amt-box {
+       border-bottom: 1px solid #ccc;
+       border-top: 1px solid #ccc;
+       padding: 15px 10px;
+       .ads-amt {
+        display: flex;
+        width: 100%;
+        .checkbox-item {
+            width: 50%;
+            margin: 0 10px;
+            background: #f7f7f7;
+            box-shadow: 0px 0.5px 2px 0 rgba(0, 0, 0, 0.27);
+            ion-item {
+                --padding-start: 0;
+                text-align: center;
+                ion-radio {
+                    border: 2px solid #d0c8c8;
+                    padding: 0;
+                    margin: 0 15px;
+                    width: 24px;
+                }
+            }
+            .amt {
+                font-size: 24px;
+                font-weight: bold;
+                letter-spacing: 1.1px;
+                color: #1e319d;
+                height: 82px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+          }
+       }
+    }
 }
