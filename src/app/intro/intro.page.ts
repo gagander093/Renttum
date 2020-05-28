@@ -19,4 +19,7 @@ export class IntroPage implements OnInit {
   Login() {
     this.router.navigate(['login']);
   }
+  setNumber() {
+    this.router.navigate(['set-password']);
+  }
 }

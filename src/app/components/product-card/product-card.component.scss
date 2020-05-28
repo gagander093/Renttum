@@ -30,6 +30,10 @@ ion-card.product-card {
         display: flex;
         .rent-info {
             flex-grow: 1;
+            display: flex;
+            .rent-title {
+                flex-grow: 1;
+            }
         }
         .whishlist {
             ion-icon {

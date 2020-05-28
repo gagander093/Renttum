@@ -51,7 +51,7 @@ export class OtpPage implements OnInit {
   }
 
   validateOtp() {
-    this.router.navigate(['set-password']);
+    this.router.navigate(['home']);
   }
 
 }
