@@ -1,3 +1,21 @@
 .payment-section {
     padding: 0 10px;
+    ion-list {
+        --padding-start: 0;
+        ion-item {
+            --padding-bottom: 10px;
+            --padding-end: 10px;
+            ion-avatar {
+                --border-radius: 0;
+                img {
+                    object-fit: contain;
+                }
+            }
+            ion-label {
+                p {
+                    white-space: normal;
+                }
+            }
+        }
+    }
 }

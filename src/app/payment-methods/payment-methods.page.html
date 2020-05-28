@@ -2,6 +2,39 @@
 
 <ion-content>
   <div class="payment-section">
-    
+    <ion-list>
+      <ion-list-header>
+        Recent Conversations
+      </ion-list-header>
+
+      <ion-item button (click)="buttonClick()">
+        <ion-avatar slot="start">
+          <img src="../../assets/images/pay.svg">
+        </ion-avatar>
+        <ion-label>
+          <h3>Card Payment</h3>
+          <p>Pay with VISA, MasterCard or any credit or debit card</p>
+        </ion-label>
+      </ion-item>
+      <ion-item button (click)="buttonClick()">
+        <ion-avatar slot="start">
+          <img src="../../assets/images/online-payment.svg">
+        </ion-avatar>
+        <ion-label>
+          <h3>Net Banking</h3>
+          <p>Transfer money from your bank account</p>
+        </ion-label>
+      </ion-item>
+      <ion-item button (click)="buttonClick()">
+        <ion-avatar slot="start">
+          <img src="../../assets/images/upi.svg">
+        </ion-avatar>
+        <ion-label>
+          <h3>UPI</h3>
+          <p>Transfer your money. Your transaction can take up to 24h to process</p>
+        </ion-label>
+      </ion-item>
+
+    </ion-list>    
   </div>
 </ion-content>
