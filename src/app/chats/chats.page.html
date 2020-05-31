@@ -1,0 +1,33 @@
+<app-header title="Chat Box" [showBack]="true"></app-header>
+
+<ion-content>
+  <ion-item class="chat-header">
+    <ion-avatar slot="start">
+      <img src="../../assets/images/d-1.jpg">
+    </ion-avatar>
+    <ion-label>New camera original 
+      Nikon camera D7200...</ion-label>
+  </ion-item>
+  <ion-grid class="chat-message-list">
+    <ion-row>
+      <ion-col size="9">
+        <h3 class="user-name">Vikas kumer</h3>
+        <div class="message"> customer engagement teams to talk to prospects and customers on the website, mobile app, or social pages.</div>
+      </ion-col>
+      <ion-col offset="3" size="9">
+        <h3 class="user-name">Rahul kumer</h3>
+        <div class="message"> customer engagement teams to talk to prospects and customers on the website, mobile app, or social pages.</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="chat-textarea">
+  <ion-toolbar>
+    <ion-item>
+      <ion-textarea placeholder="Type Your message here..."></ion-textarea>
+      <ion-button shape="round" fill="outline">
+        <ion-icon name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-toolbar>
+</ion-footer>

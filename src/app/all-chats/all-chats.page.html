@@ -1,0 +1,32 @@
+<app-header title="All Chats" [showBack]="true"></app-header>
+
+<ion-content>
+  <ion-list class="chat-list">
+    <ion-item routerLink="/chats" detail="false">
+      <ion-avatar slot="start">
+        <img src="../../assets/images/download.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h2>Rahul Sharma</h2>
+        <p>Listen, I've had a pretty messed up day...</p>
+      </ion-label>
+      <ion-avatar class="product-image" slot="end">
+        <img src="../../assets/images/d-1.jpg">
+      </ion-avatar>
+    </ion-item>
+    <ion-item routerLink="/chats" detail="false">
+      <ion-avatar slot="start">
+        <img src="../../assets/images/user.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>Amit Kumar</h2>
+        <p>I've got enough on my plate as it is, and I...</p>
+      </ion-label>
+      <ion-avatar class="product-image" slot="end">
+        <img src="../../assets/images/1-zoom.jpg">
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<app-footer></app-footer>

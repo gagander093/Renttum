@@ -103,6 +103,14 @@ const routes: Routes = [
   {
     path: 'payment-methods',
     loadChildren: () => import('./payment-methods/payment-methods.module').then( m => m.PaymentMethodsPageModule)
+  },
+  {
+    path: 'all-chats',
+    loadChildren: () => import('./all-chats/all-chats.module').then( m => m.AllChatsPageModule)
+  },
+  {
+    path: 'chats',
+    loadChildren: () => import('./chats/chats.module').then( m => m.ChatsPageModule)
   }
 
 
